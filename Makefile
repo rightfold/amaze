@@ -2,7 +2,7 @@ LD=g++
 LDFLAGS=$(shell pkg-config --libs gl glfw3 glm)
 
 CXX=g++
-CXXFLAGS=-std=c++14 -Wall -Wextra -Wpedantic
+CXXFLAGS=-std=c++1z -Wall -Wextra -Wpedantic
 
 CXX_SOURCES=$(shell find src -type f -name '*.cpp')
 CXX_HEADERS=$(shell find src -type f -name '*.hpp')
