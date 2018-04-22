@@ -1,5 +1,5 @@
 LD=g++
-LDFLAGS=$(shell pkg-config --libs gl glfw3)
+LDFLAGS=$(shell pkg-config --libs gl glfw3 glm)
 
 CXX=g++
 CXXFLAGS=-std=c++14 -Wall -Wextra -Wpedantic
